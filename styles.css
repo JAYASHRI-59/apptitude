@@ -1,0 +1,47 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:pink;
+}
+
+.login-container {
+    background:peachpuff;
+    padding: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 9px;
+    padding-left: 8%;
+    padding-right: 8%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color:cornsilk;
+    color: black;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color:antiquewhite;
+    color: black;
+}
+
+#errorMessage {
+    color: red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Dashboard</h2>
+        <p><strong>Students Logged In:</strong> <span id="student-count">0</span></p>
+        
+        <h3>Student Results</h3>
+        <div class="table-container">
+            <table id="admin-table">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="student-results">
+                    <!-- Data will be added dynamically here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- New Clear History Button -->
+        <br><button id="clearHistoryBtn">Clear Student History</button>
+        <p id="clearMessage" style="color: green;"></p>
+    </div>
+    
+    <script src="admin.js"></script>
+</body>
+</html>
